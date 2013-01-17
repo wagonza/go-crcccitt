@@ -1,0 +1,4 @@
+gocrcccit
+=========
+
+GO CRC-CCITT

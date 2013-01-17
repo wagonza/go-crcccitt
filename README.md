@@ -1,8 +1,8 @@
 CRC-CCITT for Go
 =========
 
-An online service that I need to use requires CRC-CCITT hashing. Since Go only supports CRC32 and CRC64 functions I needed to adapt another hash to support CRC-CCITT hashing.
-I found [crc16 package](https://github.com/joaojeronimo/go-crc16/) implementation which gave me enough inspiration to get this working.
+An online service that I need to use requires CRC-CCITT hashing. Since Go only supports CRC32 and CRC64 functions I needed to develop another function to support CRC-CCITT hashing.
+I found a [crc16 package](https://github.com/joaojeronimo/go-crc16/) implementation which gave me enough inspiration to get this working.
 
 ## Usage
 

@@ -39,7 +39,7 @@ func Crcccitt(str string) (crc uint16) {
 		
 	var bs = []byte(str)
 	for i := 0; i < len(str); i++ {
-		crc = (crc_table[(uint16(bs[i])^(crc>>8))&0xff] ^ (crc << 8)) & 0xffff
+		crc = (crc_table[(uint16(bs[i])^(crc>>8))&0xff] ^ (crc << 8))
 	}
 
 	return
